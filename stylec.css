@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #2980b9, #6dd5fa);
+    color: #fff;
+  }
+  
+  .container {
+    text-align: justify;
+  }
+  
+  .linktree-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .social-links {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .social-links li {
+    margin-bottom: 10px;
+  }
+  
+  .social-links a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    font-size: 16px; /* Reducción del 10% */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  }
+  
+  .social-links a:hover {
+    color: #e74c3c;
+    background-color: #fff;
+  }
+  
+  /* Estilo adicional para el enlace de la página oficial */
+  .social-links .official-page {
+    color: #2ecc71;
+  }
+  
+  .social-icon {
+    margin-right: 10px;
+    font-size: 45px; /* Reducción del 10% */
+    height: 45px;
+  }
+  
+  .social-links img {
+    width: 45px; /* Tamaño de la imagen */
+    height: 45px;
+  }
+  
